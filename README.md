@@ -1,21 +1,51 @@
-# Trabajo Práctico Nº 2 – Desarrollo de Sitio Web Responsivo
+# TP2 - Aplicación de Fortaleza de Contraseña
 
-Este repositorio contiene el desarrollo del Trabajo Práctico Nº 2 realizado en la materia Desarrollo de Software.
+## Descripción
 
-El sitio web se encuentra disponible en GitHub Pages a través del siguiente enlace:
+Este proyecto consiste en el desarrollo de una **aplicación web en React** que permite evaluar la seguridad de una contraseña ingresada por el usuario.
 
-[https://daiana213.github.io/tp2/]
+La aplicación analiza distintos criterios y clasifica la contraseña como:
 
+* Poco segura
+* Segura
+* Muy segura
 
-# React + Vite
+Este trabajo fue realizado como parte del **Trabajo Práctico N°2**, aplicando conceptos fundamentales de React.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Funcionalidades
 
-Currently, two official plugins are available:
+* Ingreso de contraseña por parte del usuario
+* Botón para mostrar / ocultar contraseña
+* Evaluación de la seguridad de la contraseña
+* Clasificación en:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  * Poco segura
+  * Segura
+  * Muy segura
+  * Copiar contraseña al portapapeles
+  * Generar contraseña aleatoria
+  * Configuración avanzada de generación
 
-## Expanding the ESLint configuration
+## ¿Cómo se evalúa la contraseña?
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+La fortaleza de la contraseña se determina en base a criterios como:
+
+* Longitud mínima
+* Uso de mayúsculas
+* Uso de minúsculas
+* Presencia de números
+* Presencia de caracteres especiales
+
+## Tecnologías utilizadas
+
+* React
+* JavaScript
+* HTML5
+* CSS3
+
+## URL
+https://daiana213.github.io/tp2/
+
+## Notas
+
+Este proyecto fue desarrollado con fines académicos, cumpliendo los requisitos del trabajo práctico, incluyendo el uso de componentes, props y estado en React.
